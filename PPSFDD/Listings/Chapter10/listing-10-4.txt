@@ -1,0 +1,9 @@
+﻿emailserver=smtp.live.com
+emailaccount=someacct@msn.com
+emailfrom=someemail@msn.com
+emailpw=somepassword
+edwteamemail=edwteam@msn.com
+emailport=587
+ftpinpath=\\\\ftp\\inbound\\
+ftpoutpath=\\\\ftp\\outbound\\
+edwserver=(local) 

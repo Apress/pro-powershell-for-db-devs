@@ -1,0 +1,14 @@
+"Type","Platform","AuthenticationType","ConnectionString"
+"ADO","SqlServer","Integrated","Data Source=$server;Integrated Security=SSPI;Initial Catalog=$databasename"
+"ADO","SqlServer","Logon","Data Source=$server;Persist Security Info=False;IntegratedSecurity=false;Initial Catalog=$databasename;User ID=$userid;Password=$password"
+"ADO","SqlServer","Credential","Data Source=$server;Persist Security Info=False;Initial Catalog=$databasename"
+"ADO","Azure","Logon","Data Source=$server;User ID=$userid;Password=$password;Initial Catalog=$databasename;Trusted_Connection=False;TrustServerCertificate=False;Encrypt=True;" 
+"ODBC","PostgreSQL","DSNLess","Driver={$driver};Server=$server;Port=5432;Database=$databasename;Uid=$userid;Pwd=$password;SSLmode=disable;ReadOnly=0;"
+"ODBC","PostgreSQL","DSN","DSN=$dsn;SSLmode=disable;ReadOnly=0;"
+"ODBC","SqlServer","DSNLess","Driver={$driver};Server=$server;Port=5432;Database=$databasename;Uid=$userid;Pwd=$password;SSLmode=disable;ReadOnly=0;"
+"ADO","Access","DSNLess","Provider=Microsoft.ACE.OLEDB.12.0;Data Source=$databasename;Persist Security Info=False;"
+"ODBC","Access","DSNLess","Driver={$driver};Dbq=$databasename;Uid=Admin;Pwd=;"
+
+
+
+

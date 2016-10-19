@@ -1,0 +1,9 @@
+﻿project,name,value
+general,edwserver,(local)
+general,emailserver,smtp.live.com
+general,ftppath,\\ftpserver\ftp\
+edw,teamemail,edwteamdist
+edw,stagingdb,staging
+finance,ftppath,\\financeftpserver\ftp\
+finance,dbserver,financesqlsvr
+finance,outfolder,\\somepath\outdata\
